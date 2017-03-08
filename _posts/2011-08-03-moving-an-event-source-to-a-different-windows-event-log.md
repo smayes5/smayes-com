@@ -2,7 +2,6 @@
 title: 'Moving an Event Source to a Different Windows Event Log'
 slug:  'moving-an-event-source-to-a-different-windows-event-log'
 date:  2011-08-03 11:36:00 -0400
-tags:  windows powershell
 ---
 
 It is typically best practice when developing .NET applications, including SharePoint customizations, to create an event source for Windows Event Logging while installing the application. Each event source on a Windows computer is tied to a specific log upon registration. I recently provided guidance on how to move an event source to use its own brand new event log. The following lines of PowerShell can do this quickly. Unless your .NET application has the event log hardcoded into itself, which it shouldn't because the event source should be registered to a log during installation, then the move shouldn't require any code changes.

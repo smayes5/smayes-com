@@ -2,7 +2,6 @@
 title: 'Expanding Warm Up Script Triggers'
 slug:  'expanding-warm-up-script-triggers'
 date:  2011-09-07 13:46:00 -0400
-tags:  sharepoint iis windows
 ---
 
 This post is a follow up to a post I wrote a few months ago around triggering a warm up script for SharePoint to execute only when a specific application pool is recycled. You may want to read that post before this one: ["Application Pool"-Specific Warm Up Scripts]({% post_url 2011-06-29-application-pool-specific-warm-up-scripts %})

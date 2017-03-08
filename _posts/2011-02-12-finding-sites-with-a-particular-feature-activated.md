@@ -2,7 +2,6 @@
 title: 'Finding Sites with a Particular Feature Activated'
 slug:  'finding-sites-with-a-particular-feature-activated'
 date:  2011-02-12 22:05:00 -0500
-tags:  sharepoint powershell
 ---
 
 I continually have a question arise that seems easy to answer, yet from what I can tell, is not yet available with SharePoint out-of-the-box in its user interfaces. That question is:

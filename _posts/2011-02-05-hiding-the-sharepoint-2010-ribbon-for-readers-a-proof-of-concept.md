@@ -2,7 +2,6 @@
 title: 'Hiding the SharePoint 2010 Ribbon for Readers - A Proof of Concept'
 slug:  'hiding-the-sharepoint-2010-ribbon-for-readers-a-proof-of-concept'
 date:  2011-02-05 13:06:00 -0500
-tags:  sharepoint
 ---
 
 In SharePoint 2010 publishing sites, the ribbon is the new way of life for authors. However for readers, the ribbon provides very little, if any, functionality. A few days ago, I was asked about hiding this empty space by a client. Their current 2010 master page had the ribbon moved to a custom position on their publishing sites. They had also suppressed the breadcrumb/folder navigation in the ribbon; thus for a typical reader view, there was no ribbon contents that would be displayed. However, the space on the page where the ribbon would live for authors still remained as empty space!

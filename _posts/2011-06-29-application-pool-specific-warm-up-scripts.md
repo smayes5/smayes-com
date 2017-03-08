@@ -2,7 +2,6 @@
 title: '"Application Pool"-Specific Warm Up Scripts'
 slug:  'application-pool-specific-warm-up-scripts'
 date:  2011-06-29 15:18:00 -0400
-tags:  iis
 ---
 
 **Thanks to Thomas Vuylsteke and his ADdict blog for providing the foundation of this post!**  

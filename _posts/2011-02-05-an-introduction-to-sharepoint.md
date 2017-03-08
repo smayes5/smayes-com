@@ -2,7 +2,6 @@
 title: 'An Introduction to SharePoint'
 slug:  'an-introduction-to-sharepoint'
 date:  2011-02-05 13:05:00 -0500
-tags:  sharepoint
 ---
 
 My professional focus for the last few years has been Microsoft's SharePoint platform. I've been extremely happy with my consulting work on this platform thus far. Some people have heard of it and used it, especially if you're in front of a computer most of the day for your job. SharePoint is one of, if not the, fastest growing Microsoft product/platform. I will be extensively blogging about SharePoint and its various features.
