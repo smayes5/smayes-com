@@ -7,18 +7,29 @@ baseurl: ""
 url: "https://smayes.com"
 
 # Build settings
-markdown: kramdown
-timezone: UTC
 gems:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-gist
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
+jekyll-archives:
+  enabled:
+    - month
+  layouts:
+    month: archive
+  permalinks:
+    month: "/:year/:month/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/blog/:num"
 sass:
   style: compressed
+timezone: US/Eastern
 
 # Default YAML
 defaults:
