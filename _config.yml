@@ -19,11 +19,14 @@ exclude:
   - README.md
 jekyll-archives:
   enabled:
+    - year
     - month
   layouts:
-    month: archive
+    year: yearly-archive
+    month: monthly-archive
   permalinks:
-    month: "/:year/:month/"
+    year: "/blog/:year/"
+    month: "/blog/:year/:month/"
 markdown: kramdown
 paginate: 5
 paginate_path: "/blog/:num"
@@ -38,5 +41,5 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: ":year/:month/:slug"
+      permalink: "blog/:year/:month/:slug"
       layout: "post"
