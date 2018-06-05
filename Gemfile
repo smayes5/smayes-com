@@ -18,3 +18,6 @@ group :jekyll_plugins do
 	gem "jekyll-gist"
 	gem "jekyll-paginate"
 end
+
+# For testing the generated site in the Continuous Integration pipeline, use html-proofer!
+gem "html-proofer"
