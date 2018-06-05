@@ -4,7 +4,7 @@ slug:  'passing-parameters-to-delegate-controls'
 date:  2012-03-13 16:41:00 -0400
 ---
 
-I have a requirement for a [DelegateControl]("http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.webcontrols.delegatecontrol.aspx") where I need the child candidate control to render a link that opens in a new window in certain instances of the DelegateControl and open the link in the same window otherwise. The design that made the most sense to me was to use the same code for the child control to compute and render the link in both circumstances and pass a boolean parameter, `OpenLinkInNewWindow`, to control the target of the link.
+I have a requirement for a [DelegateControl](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.webcontrols.delegatecontrol.aspx) where I need the child candidate control to render a link that opens in a new window in certain instances of the DelegateControl and open the link in the same window otherwise. The design that made the most sense to me was to use the same code for the child control to compute and render the link in both circumstances and pass a boolean parameter, `OpenLinkInNewWindow`, to control the target of the link.
 
 The reader might be wondering why I need a control just to render a link. For the purposes of this article, just assume that the control has some built-in intelligence to render a link that cannot otherwise be easily generated!
 
