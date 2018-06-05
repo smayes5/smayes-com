@@ -13,10 +13,12 @@ gems:
   - jekyll-gist
   - jekyll-paginate
 exclude:
+  - cibuild
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
+  - vendor
 jekyll-archives:
   enabled:
     - year
